@@ -1,0 +1,11 @@
+[package]
+name = "pgxr"
+version = "0.1.0"
+authors = ["clia"]
+
+[lib]
+name = "pgxr"
+crate-type = ["rlib"]
+
+[build-dependencies]
+bindgen = "0.44.0"
